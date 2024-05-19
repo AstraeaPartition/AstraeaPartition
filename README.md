@@ -14,11 +14,11 @@ Edit ./Streaming/pom.xml, modify the property of Astraea.home as the location of
 
     mvn -Pyarn -Phadoop-2.7 -Dhadoop.version=2.7.3 -Phive -Phive-thriftserver -Dmaven.test.skip=true clean package -pl streaming
 
-Then, one can get the compiled spark-streaming_2.11-2.1.0.jar
+Then, you can get the compiled spark-streaming_2.11-2.1.0.jar
 
-Next, one can download the pre-build version of spark-2.1 from https://spark.apache.org/downloads.html.
+Next, you can download the pre-build version of spark-2.1 from https://spark.apache.org/downloads.html.
 
-Put the previously compiled spark-core_2.11-2.1.0.jar and spark-streaming_2.11-2.1.0.jar to $SPARK_HOME$/jar/ for replacing the old jars. Then one can start computation.
+Put the previously compiled spark-core_2.11-2.1.0.jar and spark-streaming_2.11-2.1.0.jar to $SPARK_HOME$/jar/ for replacing the old jars. Then you can start computation.
 
 ## Using Astraea
 
